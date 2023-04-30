@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+list-style: none;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+  font-size: 17px;  
+  padding: 0px 35px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.list ul{
+    display: flex;
+    gap: 50px;
+    
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.space{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.smallbutton{
+    background-color: #ba0cc5;
+    padding: 8px  18px;
+    font-size: 15px;
+cursor: pointer;
+color: white;
+border: 1px soild white;
+border-radius: 5px;
+font-weight: 700;
+width: fit-content;
+}
+
+.bigbutton{
+    background-color: #ba0cc5;
+    padding: 10px  10px;
+    font-size: 20px;
+cursor: pointer;
+color: white;
+border: 1px soild white;
+border-radius: 5px;
+font-weight: 700;
+width: fit-content;
+}
+.hero{
+       background-image: url("/project 5 html/asstes/bg.png");
+background-attachment: fixed;
+background-size: cover;
+height: 89.7vh;
+display: flex;
+align-items: center;
+color: white;
+justify-content: center;
+font-weight: 700;
+
+}
+.herosection h1 {
+    font-size: 80px;
+    justify-content: center;
+}
+p{
+    display: flex;
+font-size: 25px;
+justify-content: center;
+}
+.mainbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding-top: 40px;
+}
