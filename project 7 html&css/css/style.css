@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: #111827;
+}
+nav{
+    margin: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: end;
+    gap: 25px;
+    font-size: 21px;
+}
+.home{
+    background-color: rgb(100,100,224);
+    padding: 8px 10px;
+    border-radius: 20px;
+}
+.main{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    gap: 30px;
+    align-items: center;
+    flex-direction: row;
+}
+img[alt="hey"]{
+    height: 43px;
+}
+img[alt="computer-image"]{
+width: 40vw;
+}
+img[ alt="img"]{
+    width: 20vw;
+}
+.main-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 33px;
+
+}
+.main-line1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size:33px ;
+
+}
+.main-line2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main-line2 h2{
+    font-size: 36px;
+color: rgb(197,197,96);
+}
+.Image{
+margin-top: 70px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+  
+}
+.image-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.project-contect{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.underline{
+    height: 10px;
+    width: 145px;
+    background-color:blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+img[ alt="moblieview"]{
+    width: 20vw;
+    display: none;
+}
+.main-line2 h1{
+    font-size: 60px;
+}
+section div h1{
+    font-size: 40px;
+}
+.underline2{
+    height: 10px;
+    width: 200px;
+    background-color:blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.footer{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.Contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+img[alt="Contact"]{
+    width: 30px;
+}
+@media screen and (max-width: 576px){
+    nav ul{
+        display: none;
+    }
+    img[alt="moblieview"]{
+        display: block;
+        height: 40px;
+        width: 40px;
+    }
+    .main{
+        display: flex;
+       flex-direction: column;
+    }
+    img[alt="computer-image"]
+    {
+        width: 60vw;
+    }
+    .main-line1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+    }
+    .main-line2 h1{
+        font-size: 40px;
+    }
+    .main-line2 h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .image-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    img[alt="img"]{
+        width: 55vw;
+    }
+    .Image div h1{
+        font-size: 35px;
+    }
+    .footer h1{
+        font-size: 35px;
+    }
+    .underline2{
+        height: 10px;
+        width: 180px;
+        background-color:blue;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+}
