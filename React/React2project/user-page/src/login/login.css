@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.loginbox{
+    height: 350px;
+    width: 300px;
+    border: 1px solid rgba(37, 35, 35, 0.953);
+    border-radius: 10px;
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.ln-logo{
+    padding-left: 40px;
+}
+button{
+    margin-top: 10px;
+    background-color :rgb(76,181,249);
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+span{
+    color: rgb(76,181,249);
+    font-weight: 300;
+}
+input{
+    font-size: 15px;
+    border: 1px solid gray;
+   margin-top: 2px;
+   outline: none;
+}
