@@ -2,39 +2,54 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 .loginbox{
-    height: 350px;
+    height: 380px;
     width: 300px;
     border: 1px solid rgba(37, 35, 35, 0.953);
     border-radius: 10px;
     display: flex;
-    padding: 25px;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid gray;
+    background-color: white;
 }
+.login-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
 button{
     margin-top: 10px;
-    padding:5px 130px ;
-    font-size: 18px;
-    border: 1px solid gray;
-    border-radius: 5px;
+    background-color :rgb(76,181,249);
+    font-size: 15px;
+    padding: 6px 0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
 }
 span{
-    color: rgb(23, 142, 182);
+    color: rgb(76,181,249);
     font-weight: 300;
 }
 input{
-    width:300px;
-    height: 30px;
-    font-size: 15px;
-    border: 1px solid gray;
-   margin-top: 2px;
+    padding: 6px 10px;
+    margin: 2px 0;
+    font-size: 14px;
+    border: 1px solid rgb(182, 178, 178);
+    border-radius: 5px;
+    outline: none;
+}
+button:hover,
+button:focus,
+input:hover,
+input:focus{
+outline: none;
+box-shadow: 0 0 5px rgb(182, 178, 178);
 }
