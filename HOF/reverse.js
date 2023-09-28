@@ -8,6 +8,5 @@ function reverseString(str) {
     return newString;
 }
 const string = "ramgupta";
-
 const result = reverseString(string);
 console.log(result);
